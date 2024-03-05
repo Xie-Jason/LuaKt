@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.luakt.syntax.Goto</OriginalElement>
+  <nodes>
+    <node x="263.46886898096307" y="1228.058902575588">org.luakt.syntax.Block</node>
+    <node x="-72.5" y="971.0">org.luakt.syntax.ForEqLoop</node>
+    <node x="535.9377379619261" y="766.0">org.luakt.syntax.SyntaxNode</node>
+    <node x="-88.5" y="1221.0">org.luakt.syntax.Return</node>
+    <node x="-96.5" y="461.0">org.luakt.syntax.LocalDeclare</node>
+    <node x="217.7920492721164" y="430.99999999999994">org.luakt.syntax.ForInLoop</node>
+    <node x="242.46886898096307" y="1099.529451287794">org.luakt.syntax.RepeatLoop</node>
+    <node x="312.2920492721164" y="862.5">org.luakt.syntax.Statement</node>
+    <node x="-62.0" y="361.0">org.luakt.syntax.Discard</node>
+    <node x="242.46886898096307" y="971.0">org.luakt.syntax.WhileLoop</node>
+    <node x="-78.0" y="811.0">org.luakt.syntax.Goto</node>
+    <node x="223.2920492721164" y="651.0">org.luakt.syntax.Assign</node>
+    <node x="-49.5" y="651.0">org.luakt.syntax.Label</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.luakt.syntax.Return" target="org.luakt.syntax.Statement" relationship="GENERALIZATION">
+      <point x="108.5" y="-0.0" />
+      <point x="183.0" y="1261.0" />
+      <point x="183.0" y="881.0" />
+      <point x="-80.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.Discard" target="org.luakt.syntax.Statement" relationship="GENERALIZATION">
+      <point x="90.0" y="-0.0" />
+      <point x="183.0" y="401.0" />
+      <point x="183.0" y="881.0" />
+      <point x="-80.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.Assign" target="org.luakt.syntax.Statement" relationship="GENERALIZATION">
+      <point x="124.5" y="-0.0" />
+      <point x="183.0" y="721.0" />
+      <point x="183.0" y="881.0" />
+      <point x="-80.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.Block" target="org.luakt.syntax.Statement" relationship="GENERALIZATION">
+      <point x="71.5" y="-0.0" />
+      <point x="183.0" y="1268.058902575588" />
+      <point x="183.0" y="881.0" />
+      <point x="-80.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.Label" target="org.luakt.syntax.Statement" relationship="GENERALIZATION">
+      <point x="77.5" y="-0.0" />
+      <point x="183.0" y="721.0" />
+      <point x="183.0" y="881.0" />
+      <point x="-80.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.RepeatLoop" target="org.luakt.syntax.Statement" relationship="GENERALIZATION">
+      <point x="92.5" y="-0.0" />
+      <point x="183.0" y="1154.529451287794" />
+      <point x="183.0" y="881.0" />
+      <point x="-80.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.Statement" target="org.luakt.syntax.SyntaxNode" relationship="GENERALIZATION">
+      <point x="80.0" y="-0.0" />
+      <point x="451.96886898096307" y="881.0" />
+      <point x="451.96886898096307" y="881.0" />
+      <point x="-90.5" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.ForInLoop" target="org.luakt.syntax.Statement" relationship="GENERALIZATION">
+      <point x="130.0" y="-0.0" />
+      <point x="183.0" y="531.0" />
+      <point x="183.0" y="881.0" />
+      <point x="-80.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.Goto" target="org.luakt.syntax.Statement" relationship="GENERALIZATION">
+      <point x="106.0" y="-0.0" />
+      <point x="-80.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.WhileLoop" target="org.luakt.syntax.Statement" relationship="GENERALIZATION">
+      <point x="92.5" y="-0.0" />
+      <point x="183.0" y="1026.0" />
+      <point x="183.0" y="881.0" />
+      <point x="-80.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.LocalDeclare" target="org.luakt.syntax.Statement" relationship="GENERALIZATION">
+      <point x="124.5" y="-0.0" />
+      <point x="183.0" y="546.0" />
+      <point x="183.0" y="881.0" />
+      <point x="-80.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.ForEqLoop" target="org.luakt.syntax.Statement" relationship="GENERALIZATION">
+      <point x="100.5" y="-0.0" />
+      <point x="183.0" y="1086.0" />
+      <point x="183.0" y="881.0" />
+      <point x="-80.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="0.8207720588235293" showDependencies="false" x="573.8661814109751" y="828.2430011198202" />
+  <SelectedNodes />
+  <Categories>
+    <Category>属性</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

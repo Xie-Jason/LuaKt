@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.luakt.codegen.ConstantInfo</OriginalElement>
+  <nodes>
+    <node x="526.2199999999996" y="-164.55999999999995">org.luakt.codegen.ConInterMethodRef</node>
+    <node x="1447.7373714285714" y="13.559999999999945">org.luakt.codegen.ConUtf8</node>
+    <node x="645.7670857142862" y="12.0">org.luakt.codegen.ConDouble</node>
+    <node x="826.1611428571432" y="12.0">org.luakt.codegen.ConString</node>
+    <node x="1341.0628571428572" y="-164.55999999999995">org.luakt.codegen.ConFieldRef</node>
+    <node x="994.5552000000002" y="13.559999999999945">org.luakt.codegen.ConFloat</node>
+    <node x="1152.9492571428573" y="13.559999999999945">org.luakt.codegen.ConInt</node>
+    <node x="1556.462857142857" y="-40.0">org.luakt.codegen.ConstantInfo</node>
+    <node x="802.8342857142854" y="-164.55999999999995">org.luakt.codegen.ConMethodRef</node>
+    <node x="1079.4485714285713" y="-164.55999999999995">org.luakt.codegen.ConNameAndType</node>
+    <node x="486.37302857142913" y="12.0">org.luakt.codegen.ConLong</node>
+    <node x="1289.3433142857143" y="13.559999999999945">org.luakt.codegen.ConClass</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.luakt.codegen.ConInt" target="org.luakt.codegen.ConstantInfo" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="1216.9492571428573" y="-28.0" />
+      <point x="1648.962857142857" y="-28.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="org.luakt.codegen.ConClass" target="org.luakt.codegen.ConstantInfo" relationship="REALIZATION">
+      <point x="5.6843418860808015E-14" y="-39.0" />
+      <point x="1364.3433142857143" y="-28.0" />
+      <point x="1648.962857142857" y="-28.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="org.luakt.codegen.ConDouble" target="org.luakt.codegen.ConstantInfo" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="731.7670857142862" y="-28.0" />
+      <point x="1648.962857142857" y="-28.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="org.luakt.codegen.ConString" target="org.luakt.codegen.ConstantInfo" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="906.1611428571432" y="-28.0" />
+      <point x="1648.962857142857" y="-28.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="org.luakt.codegen.ConFieldRef" target="org.luakt.codegen.ConstantInfo" relationship="REALIZATION">
+      <point x="0.0" y="-54.0" />
+      <point x="1471.0628571428572" y="-28.0" />
+      <point x="1648.962857142857" y="-28.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="org.luakt.codegen.ConMethodRef" target="org.luakt.codegen.ConstantInfo" relationship="REALIZATION">
+      <point x="0.0" y="-54.0" />
+      <point x="932.8342857142854" y="-28.793557942857433" />
+      <point x="1648.962857142857" y="-28.793557942857433" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="org.luakt.codegen.ConUtf8" target="org.luakt.codegen.ConstantInfo" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="1523.7373714285714" y="-28.106070710857153" />
+      <point x="1648.962857142857" y="-28.106070710857153" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="org.luakt.codegen.ConFloat" target="org.luakt.codegen.ConstantInfo" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="1069.5552000000002" y="-28.0" />
+      <point x="1648.962857142857" y="-28.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="org.luakt.codegen.ConLong" target="org.luakt.codegen.ConstantInfo" relationship="REALIZATION">
+      <point x="-0.0" y="-39.0" />
+      <point x="561.8730285714291" y="-28.029288667428574" />
+      <point x="1556.462857142857" y="-28.029288667428574" />
+      <point x="-92.5" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.codegen.ConNameAndType" target="org.luakt.codegen.ConstantInfo" relationship="REALIZATION">
+      <point x="0.0" y="-54.0" />
+      <point x="1201.9485714285713" y="-28.10189257142852" />
+      <point x="1648.962857142857" y="-28.10189257142852" />
+      <point x="0.0" y="-18.5" />
+    </edge>
+    <edge source="org.luakt.codegen.ConInterMethodRef" target="org.luakt.codegen.ConstantInfo" relationship="REALIZATION">
+      <point x="-0.0" y="-54.0" />
+      <point x="656.2199999999996" y="-28.793557942857433" />
+      <point x="-92.09591085714555" y="-7.293557942857433" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="0.947790294627383" showDependencies="false" x="1160.045951038168" y="-97.31240548937222" />
+  <SelectedNodes />
+  <Categories>
+    <Category>属性</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

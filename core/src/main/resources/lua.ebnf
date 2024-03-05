@@ -1,0 +1,61 @@
+    stmt ::= ';' |
+         if expr then block {elseif expr then block} [else block] end |
+         for name '=' expr ',' expr [',' expr] do block end |
+    	 for nameList in exprList do block end |
+		 '::' name '::' | 
+		 break | 
+		 goto name | 
+		 do block end | 
+		 while expr do block end | 
+		 repeat block until expr |
+		 function funcName funcBody | 
+		 local function name funcBody |
+		 local nameList ['=' exprList] |
+		 expr exprStmtSuffix |
+		 return [exprList] [';']
+
+    exprStmtSuffix ::= {, expr } = exprList | args
+
+	funcName ::= name {'.' name} [':' name]
+
+    access ::= '[' expr ']' | '.' name
+
+	nameList ::= name {',' name}
+
+	exprList ::= expr {',' expr}
+
+    expr  ::= expr1 { binOpP0 expr1 }
+    expr1 ::= expr2 { binOpP1 expr2 }
+    expr2 ::= expr3 { binOpP2 expr3 }
+    expr3 ::= expr4 { binOpP3 expr4 }
+    expr4 ::= expr5 { binOpP4 expr5 }
+    expr5 ::= exprPrefix { exprSuffix }
+
+    exprPrefix ::=  nil | false | true | number | literalString | '...' |
+        name | funcDef | tableConstructor | unOp expr | '(' expr ')'
+
+    exprSuffix ::= args | ':' name args | access
+
+	args ::=  '(' [exprList] ')' | tableConstructor | literalString
+
+	funcDef ::= function funcBody
+
+	funcBody ::= '(' [paramList] ')' block end
+
+	paramList ::= nameList [',' '...'] | '...'
+
+	tableConstructor ::= '{' [fieldList] '}'
+
+	fieldList ::= field {fieldSep field} [fieldSep]
+
+	field ::= '[' expr ']' '=' expr | name '=' expr | expr
+
+	fieldSep ::= ',' | ';'
+
+	binOpP0 = and | or
+    binOpP1 = '<' | '<=' | '>' | '>=' | '==' | '~='
+    binOpP2 = '&' | '~' | '|' | '>>' | '<<'
+    binOpP3 = '+' | '-' | '..'
+    binOpP4 = '*' | '/' | '//' | '^' | '%'
+
+	unOp ::= '-' | not | '#' | '~'

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.luakt.syntax.Expression</OriginalElement>
+  <nodes>
+    <node x="1085.5" y="952.0">org.luakt.syntax.FieldAccess</node>
+    <node x="1089.5" y="1080.0">org.luakt.syntax.FuncInvoke</node>
+    <node x="1497.5409142857143" y="797.0">org.luakt.syntax.LiteralNil</node>
+    <node x="1786.37568" y="1020.0">org.luakt.syntax.SyntaxNode</node>
+    <node x="1477.5409142857143" y="1263.8277485714286">org.luakt.syntax.LiteralFalse</node>
+    <node x="1533.9614171428568" y="1115.5">org.luakt.syntax.Expression</node>
+    <node x="1486.0409142857143" y="854.0">org.luakt.syntax.LiteralNum</node>
+    <node x="1477.5409142857143" y="1208.0">org.luakt.syntax.LiteralTrue</node>
+    <node x="1049.0" y="1208.0">org.luakt.syntax.DeclaredFunc</node>
+    <node x="1016.0" y="1456.0">org.luakt.syntax.LiteralTable</node>
+    <node x="1486.5409142857143" y="1319.6554971428573">org.luakt.syntax.LiteralStr</node>
+    <node x="1477.5409142857143" y="952.0">org.luakt.syntax.UnaryOp</node>
+    <node x="1015.0" y="824.0">org.luakt.syntax.BinOp</node>
+    <node x="1094.5" y="696.0">org.luakt.syntax.UsedProcMacro</node>
+    <node x="1460.5409142857143" y="1416.4832457142859">org.luakt.syntax.Var</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.luakt.syntax.UsedProcMacro" target="org.luakt.syntax.Expression" relationship="GENERALIZATION">
+      <point x="109.0" y="-0.0" />
+      <point x="1417.0" y="750.0" />
+      <point x="1417.0" y="1134.0" />
+      <point x="-82.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.UnaryOp" target="org.luakt.syntax.Expression" relationship="GENERALIZATION">
+      <point x="93.0" y="-0.0" />
+      <point x="1417.0" y="1006.0" />
+      <point x="1417.0" y="1134.0" />
+      <point x="-82.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.FuncInvoke" target="org.luakt.syntax.Expression" relationship="GENERALIZATION">
+      <point x="114.0" y="-0.0" />
+      <point x="-82.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.Var" target="org.luakt.syntax.Expression" relationship="GENERALIZATION">
+      <point x="100.5" y="-0.0" />
+      <point x="1417.0" y="1470.4832457142859" />
+      <point x="1417.0" y="1134.0" />
+      <point x="-82.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.FieldAccess" target="org.luakt.syntax.Expression" relationship="GENERALIZATION">
+      <point x="118.0" y="-0.0" />
+      <point x="1417.0" y="1006.0" />
+      <point x="1417.0" y="1134.0" />
+      <point x="-82.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.LiteralNum" target="org.luakt.syntax.Expression" relationship="GENERALIZATION">
+      <point x="84.5" y="-0.0" />
+      <point x="1417.0" y="893.0" />
+      <point x="1417.0" y="1134.0" />
+      <point x="-82.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.LiteralTrue" target="org.luakt.syntax.Expression" relationship="GENERALIZATION">
+      <point x="81.0" y="-0.0" />
+      <point x="1417.0" y="1226.5" />
+      <point x="1417.0" y="1134.0" />
+      <point x="-82.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.LiteralTable" target="org.luakt.syntax.Expression" relationship="GENERALIZATION">
+      <point x="187.5" y="-0.0" />
+      <point x="1417.0" y="1495.0" />
+      <point x="1417.0" y="1134.0" />
+      <point x="-82.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.LiteralNil" target="org.luakt.syntax.Expression" relationship="GENERALIZATION">
+      <point x="73.0" y="-0.0" />
+      <point x="1417.0" y="815.5" />
+      <point x="1417.0" y="1134.0" />
+      <point x="-82.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.LiteralStr" target="org.luakt.syntax.Expression" relationship="GENERALIZATION">
+      <point x="74.5" y="-0.0" />
+      <point x="1417.0" y="1358.6554971428573" />
+      <point x="1417.0" y="1134.0" />
+      <point x="-82.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.LiteralFalse" target="org.luakt.syntax.Expression" relationship="GENERALIZATION">
+      <point x="83.5" y="-0.0" />
+      <point x="1417.0" y="1282.3277485714286" />
+      <point x="1417.0" y="1134.0" />
+      <point x="-82.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.Expression" target="org.luakt.syntax.SyntaxNode" relationship="GENERALIZATION">
+      <point x="82.0" y="-0.0" />
+      <point x="-90.5" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.BinOp" target="org.luakt.syntax.Expression" relationship="GENERALIZATION">
+      <point x="188.5" y="-0.0" />
+      <point x="1417.0" y="878.0" />
+      <point x="1417.0" y="1134.0" />
+      <point x="-82.0" y="-0.0" />
+    </edge>
+    <edge source="org.luakt.syntax.DeclaredFunc" target="org.luakt.syntax.Expression" relationship="GENERALIZATION">
+      <point x="154.5" y="-0.0" />
+      <point x="1417.0" y="1322.0" />
+      <point x="1417.0" y="1134.0" />
+      <point x="-82.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="0.8590559220860825" showDependencies="false" x="1606.2759571428553" y="1132.4871314285713" />
+  <SelectedNodes />
+  <Categories>
+    <Category>属性</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.luakt.codegen.CodeAttr</OriginalElement>
+  <nodes>
+    <node x="179.0" y="179.0">org.luakt.codegen.LineNumTableAttr</node>
+    <node x="446.0" y="179.0">org.luakt.codegen.SourceFileAttr</node>
+    <node x="201.0" y="-29.400000000000006">org.luakt.codegen.AttrInfo</node>
+    <node x="-88.0" y="89.0">org.luakt.codegen.CodeAttr</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.luakt.codegen.LineNumTableAttr" target="org.luakt.codegen.AttrInfo" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="org.luakt.codegen.SourceFileAttr" target="org.luakt.codegen.AttrInfo" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="555.5" y="79.0" />
+      <point x="297.5" y="79.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="org.luakt.codegen.CodeAttr" target="org.luakt.codegen.AttrInfo" relationship="GENERALIZATION">
+      <point x="0.0" y="-129.0" />
+      <point x="30.5" y="79.0" />
+      <point x="297.5" y="79.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.25" showDependencies="false" x="288.5" y="164.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>字段</Category>
+    <Category>属性</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
